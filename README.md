@@ -23,11 +23,14 @@ https://github.com/t-vermette/Capstone-Project---Initial-Report-and-EDA/blob/mai
 
 ## Methodology
 This phase of the project consisted of:
-1. Collecting Zillow and U.S. Census Bureau data.
-2. Cleaning and merging multiple public datasets.
-3. Engineering affordability-related features.
-4. Performing exploratory data analysis.
-5. Building and evaluating a baseline Multiple Linear Regression model.
+1. Collecting housing and demographic data from Zillow and the U.S. Census Bureau.
+2. Cleaning and standardizing datasets.
+3. Resolving differences in metropolitan area naming conventions by creating a custom metro mapping table to align Zillow and Census datasets on metro names.
+4. Merging the datasets into a unified analytical dataset for the 100 largest U.S. metropolitan areas.
+5. Engineering affordability-related features, including the Price-to-Income Ratio.
+6. Performing exploratory data analysis (EDA) to examine distributions and relationships among variables.
+7. Building and evaluating a baseline Linear Regression model.
+A significant portion of this phase involved data integration. Because Zillow and the U.S. Census Bureau use different naming conventions for metropolitan statistical areas, a custom metro mapping table was developed to improve the accuracy of dataset merges before analysis.
 
 ## Current Progress (Phase 1)
 - Collected and merged data from Zillow and the U.S. Census Bureau
