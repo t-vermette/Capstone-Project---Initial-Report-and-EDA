@@ -30,6 +30,7 @@ This phase of the project consisted of:
 5. Engineering affordability-related features, including the Price-to-Income Ratio.
 6. Performing exploratory data analysis (EDA) to examine distributions and relationships among variables.
 7. Building and evaluating a baseline Linear Regression model.
+
 A significant portion of this phase involved data integration. Because Zillow and the U.S. Census Bureau use different naming conventions for metropolitan statistical areas, a custom metro mapping table was developed to improve the accuracy of dataset merges before analysis.
 
 ## Current Progress (Phase 1)
